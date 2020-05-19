@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.introducaojunit5.MathUtilTest
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! - in com.mycompany.introducaojunit5.MathUtilTest
+testNulo  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.NullPointerException> but was: <java.lang.IllegalArgumentException>
+	at com.mycompany.introducaojunit5.MathUtilTest.testNulo(MathUtilTest.java:169)
+Caused by: java.lang.IllegalArgumentException: Indique ao menos um valor para calcular o mdc!
+	at com.mycompany.introducaojunit5.MathUtilTest.lambda$testNulo$1(MathUtilTest.java:169)
+	at com.mycompany.introducaojunit5.MathUtilTest.testNulo(MathUtilTest.java:169)
+

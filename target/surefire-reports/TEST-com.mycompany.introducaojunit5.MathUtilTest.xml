@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.introducaojunit5.MathUtilTest" time="0.092" tests="20" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\camil\Documents\NetBeansProjects\mavenproject2\introducaoJunit5\target\test-classes;C:\Users\camil\Documents\NetBeansProjects\mavenproject2\introducaoJunit5\target\classes;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.1\junit-jupiter-5.6.1.jar;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.1\junit-jupiter-api-5.6.1.jar;C:\Users\camil\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\camil\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\camil\.m2\repository\org\junit\platform\junit-platform-commons\1.6.1\junit-platform-commons-1.6.1.jar;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.1\junit-jupiter-params-5.6.1.jar;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.1\junit-jupiter-engine-5.6.1.jar;C:\Users\camil\.m2\repository\org\junit\platform\junit-platform-engine\1.6.1\junit-platform-engine-1.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Araguaina"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\camil\AppData\Local\Temp\surefire7491327572331185677\surefirebooter923871665233104523.jar C:\Users\camil\AppData\Local\Temp\surefire7491327572331185677 2020-05-19T16-46-25_101-jvmRun1 surefire2567003103531112977tmp surefire_05475705478618113792tmp"/>
+    <property name="test" value="com.mycompany.introducaojunit5.MathUtilTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\camil\Documents\NetBeansProjects\mavenproject2\introducaoJunit5\target\test-classes;C:\Users\camil\Documents\NetBeansProjects\mavenproject2\introducaoJunit5\target\classes;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.1\junit-jupiter-5.6.1.jar;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.1\junit-jupiter-api-5.6.1.jar;C:\Users\camil\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\camil\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\camil\.m2\repository\org\junit\platform\junit-platform-commons\1.6.1\junit-platform-commons-1.6.1.jar;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.1\junit-jupiter-params-5.6.1.jar;C:\Users\camil\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.1\junit-jupiter-engine-5.6.1.jar;C:\Users\camil\.m2\repository\org\junit\platform\junit-platform-engine\1.6.1\junit-platform-engine-1.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\camil"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\camil\Documents\NetBeansProjects\mavenproject2\introducaoJunit5"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\camil\AppData\Local\Temp\surefire7491327572331185677\surefirebooter923871665233104523.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="camila"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar;C:\Program Files\NetBeans-11.3\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\camil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\camil\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\camil\Documents\NetBeansProjects\mavenproject2\introducaoJunit5"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\camil\AppData\Local\Microsoft\WindowsApps;;C:\Users\camil\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testMdc_DiversosResultadoMaior1" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.02"/>
+  <testcase name="testMdc_P12_obtidoadoPrimo" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0"/>
+  <testcase name="testNulo" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.019">
+    <failure message="Unexpected exception type thrown ==&gt; expected: &lt;java.lang.NullPointerException&gt; but was: &lt;java.lang.IllegalArgumentException&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.NullPointerException> but was: <java.lang.IllegalArgumentException>
+	at com.mycompany.introducaojunit5.MathUtilTest.testNulo(MathUtilTest.java:169)
+Caused by: java.lang.IllegalArgumentException: Indique ao menos um valor para calcular o mdc!
+	at com.mycompany.introducaojunit5.MathUtilTest.lambda$testNulo$1(MathUtilTest.java:169)
+	at com.mycompany.introducaojunit5.MathUtilTest.testNulo(MathUtilTest.java:169)
+]]></failure>
+  </testcase>
+  <testcase name="testMdcAParP1" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_obtidoadoIgual1" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P3_Quando_A_Positivo" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.002"/>
+  <testcase name="testMultiplosValores" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P3_Quando_A_Negativo" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0"/>
+  <testcase name="testMdc_DiversosResultado1" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdcAImparP1" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdcParaCasoGeral" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P12_obtidoadoIgual1" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testNenhumParametro" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P1_Quando_B_Positivo" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.002"/>
+  <testcase name="testMdc_P1_Quando_B_Negativo" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P4" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P5" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P6" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P7" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdc_P8" classname="com.mycompany.introducaojunit5.MathUtilTest" time="0.001"/>
+</testsuite>
